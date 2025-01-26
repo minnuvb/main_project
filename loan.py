@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 loan=pd.read_csv('loan_data.csv')
 loan.head()
 loan.shape
