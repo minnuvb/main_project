@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import seaborn as sns
 loan=pd.read_csv('loan_data.csv')
 loan.head()
 loan.shape
