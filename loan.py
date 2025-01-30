@@ -222,9 +222,8 @@ roc_auc = roc_auc_score(y_test, logreg.predict_proba(X_test_scaled)[:, 1])
 print(f"Accuracy: {accuracy:.4f}")
 print(f"F1 Score: {f1:.4f}")
 print(f"AUC-ROC: {roc_auc:.4f}")
-# Plot ROC Curve
+# Plot ROC Curve for checkinh how well model seperate approval and rejections
 fpr, tpr, thresholds = roc_curve(y_test, logreg.predict_proba(X_test_scaled)[:, 1])
-
 plt.figure(figsize=(8,6))
 plt.plot(fpr, tpr, color='blue', label='ROC Curve')
 plt.plot([0, 1], [0, 1], color='gray', linestyle='--')  # Random classifier line
