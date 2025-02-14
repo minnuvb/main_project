@@ -234,7 +234,7 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC Curve')
 plt.legend(loc='lower right')
 plt.show()
-#next
+#next model decision tree
 
 
 
