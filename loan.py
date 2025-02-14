@@ -17,6 +17,7 @@ numerical_columns = [
 ]
 
 # Z-Score Outlier Detection
+
 print("Outliers detected using Z-Score:")
 for column in numerical_columns:
     loan[f'{column}_zscore'] = zscore(loan[column])
