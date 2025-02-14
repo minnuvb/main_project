@@ -10,7 +10,7 @@ print(loan.isnull().sum())
 loan.describe()
 from scipy.stats import zscore
 
-# Columns to check for outliers
+# Columns to check for outliers.
 numerical_columns = [
     'person_income', 'person_emp_exp', 'loan_amnt',
     'loan_int_rate', 'loan_percent_income', 'credit_score'
