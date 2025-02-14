@@ -63,7 +63,7 @@ loan_cleaned.to_csv("loan_cleaned.csv", index=False)
 print("\nCleaned dataset saved as 'loan_cleaned.csv'.")
 
 
-# Define the ordinal encoding mappings
+# Define the ordinal encoding mappings.
 ordinal_mapping = {
     "person_gender": {"male": 1, "female": 0},
     "person_education": {"High School": 0, "Bachelor": 1, "Master": 2, "Doctorate": 3},
