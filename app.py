@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Load trained XGBoost model which is the best model
 model = joblib.load('xgboost_model.pkl')
 
-# Streamlit UI
+# Streamlit UI is used here
 st.title("Loan Eligibility Prediction using XGBoost")
 st.write("Enter your details below to check loan approval status")
 
