@@ -48,7 +48,7 @@ encoded_inputs = [
     previous_loan_defaults_on_file
 ]
 
-# Predict button
+# Predict button to predict
 if st.button("Predict"):
     prediction = model.predict(np.array(encoded_inputs).reshape(1, -1))
     result = "Approved" if prediction[0] == 1 else "Rejected"
