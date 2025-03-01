@@ -6,7 +6,7 @@ import numpy as np
 import shap
 import matplotlib.pyplot as plt
 
-# Load trained XGBoost model
+# Load trained XGBoost model which is the best model
 model = joblib.load('xgboost_model.pkl')
 
 # Streamlit UI
