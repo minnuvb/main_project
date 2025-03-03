@@ -127,7 +127,7 @@ sns.heatmap(
     cbar=True
 )
 
-# Add title
+# Add title to the heatmap
 plt.title("Correlation Heatmap of Loan Data", fontsize=16)
 
 # Show the plot
