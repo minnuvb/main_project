@@ -114,7 +114,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.show()
 correlation_matrix = loan_data_ordinal.corr()
 
-# Set up the matplotlib figure
+# Set up the matplotlib figure for analysis
 plt.figure(figsize=(12, 8))
 
 # Create a heatmap
