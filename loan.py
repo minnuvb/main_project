@@ -18,7 +18,7 @@ numerical_columns = [
     'loan_int_rate', 'loan_percent_income', 'credit_score'
 ]
 
-# Z-Score Outlier Detection.
+# Z-Score Outlier Detection. for cleaning
 
 print("Outliers detected using Z-Score:")
 for column in numerical_columns:
